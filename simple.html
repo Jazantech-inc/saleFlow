@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>tailwind</title>
+</head>
+
+<body>
+    <!-- header -->
+    <div class="bg-indigo-700 p-4 flex justify-between items-center">
+        <!-- left side  -->
+        <div class="flex items-center">
+            <img src="https://cdn2.iconfinder.com/data/icons/icontober/64/Inkcontober_Trail-1024.png" width="50"
+                alt="logo" class="mr-2" />
+            <a href="#" class="inline-block p-2 text-indigo-200 mr-2 hover:text-indigo-100">Home</a>
+            <a href="#" class="inline-block p-2 text-indigo-200 hover:text-indigo-100">About</a>
+        </div>
+        <!-- right side  -->
+        <div class="hidden md:block">
+            <a href="#"
+                class="inline-block p-2 text-indigo-200 mr-2 hover:text-indigo-100 transition ease-in duration-150">Login</a>
+            <a href="#"
+                class="inline-block py-2 px-4 text-yellow-700 bg-yellow-400 rounded hover:bg-yellow-300 hover:text-yellow-800 transition ease-in duration-150">Sign
+                Up</a>
+        </div>
+    </div>
+    <!--========================================== hero=============================================-->
+    <div class="md:flex justify-between py-20 px-10 bg-indigo-600 text-indigo-100">
+        <!-- left  -->
+        <div class="md:w-1/2 mb-10 md:mb-0">
+            <h2 class="text-2xl md:text-4xl lg:text-6xl text-white mb-6">
+                Welcome to My Website
+            </h2>
+            <p>There is never a sad day here!</p>
+            <a href="#"
+                class="inline-block py-3 px-6 text-lg bg-gray-400 text-gray-800 rounded mr-2 hover:bg-gray-300 transition ease-out duration-150">Learn
+                More</a>
+            <a href="#"
+                class="inline-block py-3 px-6 text-lg bg-orange-400 text-orange-800 hover:bg-orange-300 rounded transition ease-out duration-150">Get
+                Started</a>
+        </div>
+        <!-- right  -->
+        <div class="md:w-1/2">
+            <img src="https://images.unsplash.com/photo-1677492691756-a3433e656ea6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=852&q=80"
+                class="w-full rounded shadow-2xl" alt=" flower" />
+        </div>
+    </div>
+    <!-- feature======================================================= -->
+    <div class="md:flex py-16 px-10 bg-indigo-800 text-indigo-200 text-center">
+        <div class="mr-2 text-center">
+            <img src="https://images.unsplash.com/photo-1677420434497-a6b9c900d7f4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"
+                class="w-full rounded mb-4 border-solid border-2 border-indigo-400" alt="" />
+            <p>Smile</p>
+        </div>
+        <div class="mr-2 mt-8 text-center">
+            <img src="https://images.unsplash.com/photo-1677552929439-082dabf4e88f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1NXx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=60"
+                class="w-full rounded mb-4 border-solid border-2 border-indigo-400" alt="" />
+            <p>Smile</p>
+        </div>
+        <div class="mr-2 text-center">
+            <img src="https://images.unsplash.com/photo-1677566133417-a86d5eb7fab0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1OXx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=60"
+                class="w-full rounded mb-4 border-solid border-2 border-indigo-400" alt="" />
+            <p>Smile</p>
+        </div>
+        <div class="mr-2 mt-8 text-center">
+            <img src="https://plus.unsplash.com/premium_photo-1671003996210-40f53c3a7575?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3Nnx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=60"
+                class="w-full rounded mb-4 border-solid border-2 border-indigo-400" alt="" />
+            <p>Smile</p>
+        </div>
+    </div>
+    <!-- footer + newsletter=============== -->
+    <div class="p-10 bg-indigo-900 text-indigo-400 flex justify-between">
+        <!-- left  -->
+        <div class="md:w-1/2">
+            <h3 class="text-lg mb-2">Join The Newsletter</h3>
+            <form class="flex">
+                <input type="email" class="w-full rounded-l py-3 px-4 outline-none focus:bg-indigo-100 focus:text-black" placeholder="Email" />
+                <button class="bg-red-300 hover:bg-red-400 text-red-800 rounded-r px-4" type="button"> Join </button>
+            </form>
+        </div>
+        <!-- right  -->
+        <div class="flex items-center">
+            <small> Copyright &copy; It's Me 2023 - Infinity </small>
+        </div>
+    </div>
+</body>
+
+</html>
